@@ -1,0 +1,21 @@
+{
+  "name": "safecash-backend",
+  "version": "1.0.0",
+  "description": "Core Engine de tesouraria da SafeCash - API REST (Node.js + Express + SQLite)",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test tests/api.test.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "zod": "^4.6.7"
+  }
+}
